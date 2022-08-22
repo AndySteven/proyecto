@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi proyecto de un Sitio web, autor Andy Fernández">
+    <title>Opinión</title>
+    <link rel="shortcut icon" href="imagenes/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/opinion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="agrupar">
+        <!--HEADER-->
+        <header class="cabecera">
+            <div class="cabecera_bloque">
+                <div class="logo">
+                    <img src="imagenes/logo.webp" alt="">
+                </div>
+                <div class="titulo">
+                    <h1>LIBERTAD-TOUR</h1>
+                </div>
+            </div>
+            <div class="cabecera_bloque2">
+                <a href="opinion.html">Opinión<i class="fa-solid fa-pencil"></i></a>
+                <button>Iniciar Sesión</button>
+            </div>
+        </header>
+
+        <hr>
+        <!--NAV-->
+        <nav class="menu">
+            <ul>
+                <li><a href="inicio.html">Inicio<i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li><a href="destino.html">Destinos<i class="fa-solid fa-plane"></i></a>
+                </li>
+                <li><a href="restaurantes.html">Restaurantes<i class="fa-solid fa-utensils"></i></a>
+                </li>
+                <li><a href="hoteles.html">Hoteles<i class="fa-solid fa-hotel"></i></a>
+                </li>
+                <li><a href="galeria.html">Galería<i class="fa-solid fa-image"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <!--ESCRÍBANOS-->
+        <div class="formulario">
+
+            <h2>Escríbenos</h2>
+            <form>
+                <input type="text" placeholder="Nombre" autofocus required class="input">
+                <input type="text" placeholder="Email" required class="input">
+                <input type="text" placeholder="Teléfono" required pattern="[0-9]{9}" class="input">
+                <textarea cols="30" rows="10" placeholder="Deja un comentario" required></textarea>
+                <input type="submit" value="Enviar" required class="boton_formulario">
+            </form>
+        </div>
+
+        <!--FOOTER-->
+        <footer>
+            <div class="footer">
+                <div class="footer_autor">
+                    <h2>Acerca de Libertad-Tour</h2>
+                    <p>Libertad-Tour es un sitio web donde podrás encontrar los mejores lugares para conocer solo o en
+                        familia por la región de La Libertad, Perú. También encontrarás los mejores restaurantes y
+                        hoteles de la región</p>
+                    <p>Copyright, Todos los derechos reservados</p>
+                    <br>
+                    <hr>
+                </div>
+                <div class="footer_redes">
+                    <p>Síguenos</p>
+                    <p>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
